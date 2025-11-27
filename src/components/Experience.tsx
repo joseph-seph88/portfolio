@@ -10,7 +10,7 @@ export default function Experience() {
                     <p className="font-bold text-xl text-gray-700 mt-2 ml-2">POXI (폭시)</p>
                     <p className="text-sm text-gray-400 italic ml-2 mb-2"><a href="https://www.poxicorp.com/" target="_blank" rel="noopener noreferrer"><strong>https://www.poxicorp.com/</strong></a></p>
                     <p className="font-bold text-sm text-gray-700 ml-2">Flutter&NestJS 앱/서버 개발자</p>
-                    <p className="font-medium text-sm text-gray-600 ml-2">2025.03 ~ 현재</p>
+                    <p className="font-medium text-sm text-gray-600 ml-2">2025.03 ~ 08</p>
                 </div>
 
                 <div className="flex-1">
