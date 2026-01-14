@@ -11,7 +11,7 @@ export default function Header() {
         <div className="mb-5">
           <a href="https://github.com/joseph-seph88" className="no-underline mr-4 inline-block bg-gray-100 rounded-full p-3 transition-transform duration-200 hover:scale-110 hover:bg-gray-200 border-1 border-gray-300">
             <Image
-              src="/assets/images/git_logo.png"
+              src="/portfolio/assets/images/git_logo.png"
               alt="GitHub"
               width={60}
               height={60}
@@ -20,7 +20,7 @@ export default function Header() {
           </a>
           <a href="https://trusted-reptile-257.notion.site/Joseph88-s-Portfolio-271618c1c2c18019b492f2436d244345?pvs=74" className="no-underline mr-4 inline-block bg-gray-100 rounded-full p-3 transition-transform duration-200 hover:scale-110 hover:bg-gray-200 border-1 border-gray-300">
             <Image
-              src="/assets/images/notion_logo.png"
+              src="/portfolio/assets/images/notion_logo.png"
               alt="Notion"
               width={60}
               height={60}

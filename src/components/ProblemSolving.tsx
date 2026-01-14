@@ -16,7 +16,7 @@ export default function ProblemSolving() {
                 <div className="flex-1">
                     <p><a href="https://trusted-reptile-257.notion.site/244618c1c2c180689068efed252bcc99?v=244618c1c2c181d7b0bb000cb4f4379e&source=copy_link" target="_blank" rel="noopener noreferrer">📖 노션 페이지 보기</a></p>
                     <Image
-                        src="/assets/images/temp.png"
+                        src="/portfolio/assets/images/temp.png"
                         alt="Profile Image"
                         width={500}
                         height={500}

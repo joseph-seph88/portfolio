@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="flex items-start gap-8 mb-8">
         <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl border-2 border-gray-300 mt-4">
           <Image
-            src="/assets/images/totoro.png"
+            src="/portfolio/assets/images/totoro.png"
             alt="Profile Image"
             width={250}
             height={250}

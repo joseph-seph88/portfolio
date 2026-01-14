@@ -54,8 +54,8 @@ export default function Experience() {
                         <li> 다국어 (한국어/English) 지원 구현</li>
                     </ul>
                     <div className="mt-4 flex gap-4">
-                        <Image src="/assets/images/moonple_calendar.png" alt="MOONPLE 캘린더 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
-                        <Image src="/assets/images/moonple_my.png" alt="MOONPLE 마이페이지 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
+                        <Image src="/portfolio/assets/images/moonple_calendar.png" alt="MOONPLE 캘린더 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
+                        <Image src="/portfolio/assets/images/moonple_my.png" alt="MOONPLE 마이페이지 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
                     </div>
                 </div>
             </div>
@@ -82,9 +82,9 @@ export default function Experience() {
                         <li> 내외부 테스트 진행 (앱스토어/플레이스토어)</li>
                     </ul>
                     <div className="mt-4 flex gap-4">
-                        <Image src="/assets/images/como_1.png" alt="C'OMO 스크린샷 1" width={200} height={400} className="rounded-lg shadow-md" />
-                        <Image src="/assets/images/como_2.png" alt="C'OMO 스크린샷 2" width={200} height={400} className="rounded-lg shadow-md" />
-                        <Image src="/assets/images/como_3.png" alt="C'OMO 스크린샷 3" width={200} height={400} className="rounded-lg shadow-md" />
+                        <Image src="/portfolio/assets/images/como_1.png" alt="C'OMO 스크린샷 1" width={200} height={400} className="rounded-lg shadow-md" />
+                        <Image src="/portfolio/assets/images/como_2.png" alt="C'OMO 스크린샷 2" width={200} height={400} className="rounded-lg shadow-md" />
+                        <Image src="/portfolio/assets/images/como_3.png" alt="C'OMO 스크린샷 3" width={200} height={400} className="rounded-lg shadow-md" />
                     </div>
                 </div>
             </div>
