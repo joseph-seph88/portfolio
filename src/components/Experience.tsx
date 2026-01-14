@@ -71,7 +71,7 @@ export default function Experience() {
                 </div>
 
                 <div className="flex-1">
-                    <p className="font-bold text-l text-gray-700">C&apos;OMO 개발 - 동호회 커뮤니티 플랫폼 <span className="text-sm text-gray-500 font-medium">(외부 테스트 진행중)</span></p>
+                    <p className="font-bold text-l text-gray-700">C&apos;OMO 개발 - 동호회 커뮤니티 플랫폼 <span className="text-sm text-gray-500 font-medium">(외부 테스트 진행중, 3월 정식 배포)</span></p>
                     <p className="font-bold text-sm text-gray-400 italic">#Flutter #GetX #RestAPI #MySQL
                     </p>
                     <ul className="list-disc list-inside space-y-2 mt-2 text-sm font-normal">
