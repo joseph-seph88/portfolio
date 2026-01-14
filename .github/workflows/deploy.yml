@@ -43,10 +43,10 @@ jobs:
           ls -la out/
           echo "=== Checking for index.html ==="
           if [ -f "out/index.html" ]; then
-            echo "✅ index.html exists"
+            echo "index.html exists"
             head -5 out/index.html
           else
-            echo "❌ index.html not found"
+            echo "index.html not found"
           fi
         
       - name: Upload artifact
