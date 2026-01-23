@@ -25,7 +25,7 @@ export default function AboutMe() {
           </p>
 
           <p><strong>다양한 기술 스택의 구조</strong>와 <strong>패턴에 대한 이해</strong>를 바탕으로 유연하게 문제를 해결하며,
-           개발자, 기획자, 고객 등 다양한 사람들과의  <strong>소통</strong>을 통해  <strong>요구사항을 정확히 이해하고 반영하는 개발자</strong>입니다.
+            개발자, 기획자, 고객 등 다양한 사람들과의  <strong>소통</strong>을 통해  <strong>요구사항을 정확히 이해하고 반영하는 개발자</strong>입니다.
           </p>
 
           <br />

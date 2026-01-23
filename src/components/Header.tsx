@@ -29,15 +29,6 @@ export default function Header() {
           </a>
         </div>
         <p className="text-base mt-10">Email: <strong>pathetic.sim@gmail.com</strong></p>
-        <a href="https://github.com/joseph-seph88/mi-mine-app" target="_blank" rel="noopener noreferrer" className="block text-base mt-1">
-          App: <strong>🔗 View Code</strong>
-        </a>
-        <a href="https://github.com/joseph-seph88/ARP-Dashboard" target="_blank" rel="noopener noreferrer" className="block text-base mt-1">
-          Web: <strong>🔗 View Code</strong>
-        </a>
-        <a href="https://github.com/joseph-seph88/mi-mine-server" target="_blank" rel="noopener noreferrer" className="block text-base mt-1">
-          Server: <strong>🔗 View Code</strong>
-        </a>
       </div>
     </div>
   );
