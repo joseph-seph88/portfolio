@@ -12,10 +12,10 @@ export default function Skills() {
                 </div>
                 <div className="flex-1">
                     <ul className="list-disc list-inside space-y-2">
-                        <li className="font-medium-semibold"> Dart/Flutter</li>
-                        <li className="font-medium-semibold"> NextJS/Typescript</li>
-                        <li className="font-medium-semibold"> Bloc, Cubit, GetX, Riverpod </li>
-                        <li className="font-medium-semibold"> Figma, Rive</li>
+                        <li className="font-semibold"> Dart/Flutter</li>
+                        <li className="font-semibold"> NextJS/React</li>
+                        <li className="font-semibold"> Bloc, Cubit, GetX, Riverpod </li>
+                        <li className="font-semibold"> Figma, Rive</li>
                     </ul>
                 </div>
             </div>
@@ -25,10 +25,10 @@ export default function Skills() {
                 </div>
                 <div className="flex-1">
                     <ul className="list-disc list-inside space-y-2">
-                        <li className="font-medium-semibold"> NestJS/Typescript </li>
-                        <li className="font-medium-semibold"> Python </li>
-                        <li className="font-medium-semibold"> PostgreSQL </li>
-                        <li className="font-medium-semibold"> REST API, GraphQL, Swagger, Playground </li>
+                        <li className="font-semibold"> NestJS/Typescript </li>
+                        <li className="font-semibold"> Python </li>
+                        <li className="font-semibold"> PostgreSQL, MySQL, Redis </li>
+                        <li className="font-semibold"> REST API, GraphQL, Swagger, Playground </li>
                     </ul>
                 </div>
             </div>
@@ -39,10 +39,10 @@ export default function Skills() {
                 </div>
                 <div className="flex-1">
                     <ul className="list-disc list-inside space-y-2">
-                        <li className="font-medium-semibold"> Git, Github, Gitlab, Github Actions </li>
-                        <li className="font-medium-semibold"> Sentry </li>
-                        <li className="font-medium-semibold"> AWS EC2 </li>
-                        <li className="font-medium-semibold"> Nginx </li>
+                        <li className="font-semibold"> Git, Github, Gitlab, Github Actions </li>
+                        <li className="font-semibold"> Sentry </li>
+                        <li className="font-semibold"> AWS, Firebase, Vercel </li>
+                        <li className="font-semibold"> Nginx </li>
                     </ul>
                 </div>
             </div>

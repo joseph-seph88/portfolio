@@ -9,13 +9,13 @@ export default function AboutMe() {
       <div className="border-b-2 border-gray-200 mb-8 ml-70"></div>
 
       <div className="flex items-start gap-8 mb-8">
-        <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl border-2 border-gray-300 mt-4">
+        <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl border-2 border-gray-300 mt-4 overflow-hidden">
           <Image
             src="/portfolio/assets/images/joseph88.jpg"
             alt="Profile Image"
             width={200}
-            height={200}
-            className="flex-shrink-0 object-cover rounded-lg"
+            height={150}
+            className="flex-shrink-0 object-cover"
           />
         </div>
 
