@@ -13,8 +13,8 @@ export default function AboutMe() {
           <Image
             src="/portfolio/assets/images/joseph88.jpg"
             alt="Profile Image"
-            width={250}
-            height={250}
+            width={200}
+            height={200}
             className="flex-shrink-0 object-cover rounded-lg"
           />
         </div>
