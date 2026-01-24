@@ -12,10 +12,10 @@ export default function Skills() {
                 </div>
                 <div className="flex-1">
                     <ul className="list-disc list-inside space-y-2">
-                        <li className="font-semibold"> Dart/Flutter</li>
-                        <li className="font-semibold"> NextJS/React</li>
-                        <li className="font-semibold"> Bloc, Cubit, GetX, Riverpod </li>
-                        <li className="font-semibold"> Figma, Rive</li>
+                        <li className="text-gray-500 font-normal"> Dart/Flutter</li>
+                        <li className="text-gray-500 font-normal"> NextJS/React</li>
+                        <li className="text-gray-500 font-normal"> Bloc, Cubit, GetX, Riverpod </li>
+                        <li className="text-gray-500 font-normal"> Figma, Rive</li>
                     </ul>
                 </div>
             </div>
@@ -25,10 +25,10 @@ export default function Skills() {
                 </div>
                 <div className="flex-1">
                     <ul className="list-disc list-inside space-y-2">
-                        <li className="font-semibold"> NestJS/Typescript </li>
-                        <li className="font-semibold"> Python </li>
-                        <li className="font-semibold"> PostgreSQL, MySQL, Redis </li>
-                        <li className="font-semibold"> REST API, GraphQL, Swagger, Playground </li>
+                        <li className="text-gray-500 font-normal"> NestJS/Typescript </li>
+                        <li className="text-gray-500 font-normal"> Python </li>
+                        <li className="text-gray-500 font-normal"> PostgreSQL, MySQL, Redis </li>
+                        <li className="text-gray-500 font-normal"> REST API, GraphQL, Swagger, Playground </li>
                     </ul>
                 </div>
             </div>
@@ -39,10 +39,10 @@ export default function Skills() {
                 </div>
                 <div className="flex-1">
                     <ul className="list-disc list-inside space-y-2">
-                        <li className="font-semibold"> Git, Github, Gitlab, Github Actions </li>
-                        <li className="font-semibold"> Sentry </li>
-                        <li className="font-semibold"> AWS, Firebase, Vercel </li>
-                        <li className="font-semibold"> Nginx </li>
+                        <li className="text-gray-500 font-normal"> Git, Github, Gitlab, Github Actions </li>
+                        <li className="text-gray-500 font-normal"> Sentry </li>
+                        <li className="text-gray-500 font-normal"> AWS, Firebase, Vercel </li>
+                        <li className="text-gray-500 font-normal"> Nginx </li>
                     </ul>
                 </div>
             </div>
