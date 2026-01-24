@@ -43,7 +43,7 @@ export default function Experience() {
 
                 <div className="flex-1">
                     <p className="font-bold text-l text-gray-700 ">MOONPLE - 캘린더 일정관리 앱 <span className="text-sm text-gray-500 font-medium">(외부 테스트 진행중)</span></p>
-                    <p className="font-bold text-sm text-gray-400 italic">#Flutter #Isar #Hive #PushNotification
+                    <p className="font-bold text-sm text-gray-400 italic">#Flutter #Bloc #Cubit #Isar #Hive #PushNotification
                     </p>
                     <ul className="list-disc list-inside space-y-2 mt-2 text-sm font-normal">
                         <li> 간편한 일정 추가, 수정, 삭제 및 검색 기능 구현</li>
@@ -56,6 +56,7 @@ export default function Experience() {
                     <div className="mt-4 flex gap-4">
                         <Image src="/portfolio/assets/images/moonple_main.png" alt="MOONPLE 메인 캘린더 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
                         <Image src="/portfolio/assets/images/moonple_status.png" alt="MOONPLE 일정 점검 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
+                        <Image src="/portfolio/assets/images/moonple_search.png" alt="MOONPLE 일정 검색 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
                     </div>
                 </div>
             </div>
