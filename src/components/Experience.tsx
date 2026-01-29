@@ -46,12 +46,13 @@ export default function Experience() {
                     <p className="font-bold text-sm text-gray-400 italic">#Flutter #Bloc #Cubit #Isar #Hive #PushNotification
                     </p>
                     <ul className="list-disc list-inside space-y-2 mt-2 text-sm font-normal">
-                        <li> 간편한 일정 추가, 수정, 삭제 및 검색 기능 구현</li>
-                        <li> 로컬 알림을 통한 일정 리마인더 기능 개발</li>
-                        <li> 일정 상태 관리 (완료, 진행중, 예정, 미완료) 기능 구현</li>
-                        <li> 주간/월간 일정 상태 현황판 UI 개발</li>
-                        <li> 이번 주/일 일정 이미지 공유 기능 구현</li>
-                        <li> 다국어 (한국어/English) 지원 구현</li>
+                        <li> 간편한 일정 추가, 수정, 삭제 및 검색 기능</li>
+                        <li> 한 달/2주 단위의 캘린더 홈 위젯 지원 기능</li>
+                        <li> 로컬 알림을 통한 일정 리마인더 기능</li>
+                        <li> 일정 상태 관리 (완료, 진행중, 예정, 미완료) 기능</li>
+                        <li> 주간/월간 일정 상태 현황 및 통계 기능</li>
+                        <li> 이번 주/일 일정 이미지 공유 기능</li>
+                        <li> 다국어 (한국어/English) 지원 기능 </li>
                     </ul>
                     <div className="mt-4 flex gap-4">
                         <Image src="/portfolio/assets/images/moonple_main.png" alt="MOONPLE 메인 캘린더 스크린샷" width={200} height={400} className="rounded-lg shadow-md" />
