@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
+  devIndicators:false
   // experimental: {
   //   esmExternals: false
   // }

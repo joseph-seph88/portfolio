@@ -1,67 +1,23 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-
 export default function Footer() {
-    const [clickCount, setClickCount] = useState(0);
-    const [showMessage, setShowMessage] = useState(false);
-    const [isClient, setIsClient] = useState(false);
-
-    useEffect(() => {
-        setIsClient(true);
-    }, []);
-
-    const handleClick = () => {
-        const newCount = clickCount + 1;
-        setClickCount(newCount);
-
-        if (newCount >= 8) {
-            setShowMessage(true);
-            setTimeout(() => {
-                setShowMessage(false);
-                setClickCount(0);
-            }, 3000);
-        }
-    };
-
     return (
         <footer className="mt-20 py-8 border-t border-gray-200">
             <div className="text-center">
-                <div
-                    style={{
-                        fontFamily: 'monospace',
-                        fontSize: '1.2rem',
-                        fontWeight: 'bold',
-                        color: '#666'
-                    }}
-                >
-                    {isClient ? (
-                        <span
-                            className="cursor-pointer transition-all duration-300 hover:scale-110"
-                            style={{ display: 'inline-block' }}
-                            onClick={handleClick}
-                            onMouseEnter={(e) => {
-                                const target = e.target as HTMLElement;
-                                if (target) target.textContent = '⬇️';
-                            }}
-                            onMouseLeave={(e) => {
-                                const target = e.target as HTMLElement;
-                                if (target) target.textContent = '📋';
-                            }}
-                        >
-                            📋
-                        </span>
-                    ) : (
-                        <span>📋</span>
-                    )} JOSEPH88
-                </div>
-
-                {showMessage && (
-                    <div className="mt-4 text-gray-500 font-bold">
-                        🐱 사용자 인증 거부
-                    </div>
-                )}
+                <FooterLogo />
             </div>
         </footer>
     );
-} 
+}
+
+
+function FooterLogo() {
+    return (
+        <div style={{ fontFamily: 'monospace', textAlign: 'center' }}>
+            <p style={{ fontSize: '0.75rem', color: '#9CA3AF', letterSpacing: '0.15em' }}>
+                Be strong and courageous
+            </p>
+            <p style={{ fontSize: '1.2rem', fontWeight: 'bold', color: '#666', marginTop: '4px' }}>
+                DEVELOPED BY JOSEPH88
+            </p>
+        </div>
+    );
+}
