@@ -31,13 +31,22 @@ function SideQuote({ text }: { text: string }) {
 function NotionPreview({ href, imageSrc }: { href: string; imageSrc: string }) {
     return (
         <div className="flex-1">
-            <p><a href={href} target="_blank" rel="noopener noreferrer">📖 노션 페이지 보기</a></p>
+            <p>
+                <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 rounded-lg bg-gray-100 text-gray-700 font-medium transition-all duration-150 hover:bg-gray-200 hover:shadow-md active:scale-95 active:bg-gray-300 active:shadow-inner"
+                >
+                    📖 노션 페이지 보기
+                </a>
+            </p>
             <Image
                 src={imageSrc}
                 alt="Problem Solving Preview"
                 width={500}
                 height={500}
-                className="flex-shrink-0 object-cover rounded-lg"
+                className="flex-shrink-0 object-cover rounded-lg mt-4"
             />
         </div>
     );
