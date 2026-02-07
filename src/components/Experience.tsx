@@ -110,7 +110,7 @@ export default function Experience() {
 
             <ExperienceEntry
                 company="다화테크놀로지코리아"
-                link="https://www.dahuasecurity.com/Korea"
+                link="https://www.dahuasecurity.com/"
                 role="기술지원팀 · 대리"
                 period="2022.06 ~ 2024.02 (1년 9개월)"
             >
