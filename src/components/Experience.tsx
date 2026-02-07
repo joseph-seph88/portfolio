@@ -116,12 +116,12 @@ export default function Experience() {
             >
                 <Project
                     title="관제영상 플랫폼 앱 QA"
-                    tags="#AppQA #CCTV #CMS #VMS #CrossPlatform"
+                    tags="#AppQA #CCTV #CMS #VMS"
                     items={[
                         '관제영상 모바일 앱(DMSS 등) 기능 검증 및 사용성 테스트 수행',
                         'CMS/VMS 영상관리 솔루션 통합 QA 및 호환성 검증',
                         '실시간 영상 스트리밍, 녹화 재생, PTZ 제어 등 핵심 기능 테스트',
-                        '다양한 디바이스 환경에서의 크로스 플랫폼 호환성 테스트',
+                        '다양한 디바이스 환경에서의 플랫폼 호환성 테스트',
                     ]}
                 />
                 <br />
@@ -132,7 +132,7 @@ export default function Experience() {
                         '하드웨어 및 펌웨어 업데이트 테스트 및 안정성 검증',
                         '제품·시스템 이슈 트러블슈팅 및 원인 분석 대응',
                         '클라이언트 요구사항 분석 및 맞춤 기술 솔루션 제안',
-                        '기술 자료 번역(영↔한) 및 제품 매뉴얼 제작',
+                        '기술 자료 번역(영한) 및 제품 매뉴얼 제작',
                     ]}
                 />
                 <br />
@@ -162,7 +162,7 @@ function MotionLink({ href, label }: { href: string; label: string }) {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="relative text-sm text-gray-400 italic ml-2 mb-2 block font-bold w-fit"
+            className="relative text-sm text-gray-400 italic ml-2 mb-2 block font-bold max-w-full truncate"
             initial="initial"
             whileHover="hover"
             whileTap={{ scale: 0.97 }}
