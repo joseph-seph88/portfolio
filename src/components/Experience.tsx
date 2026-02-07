@@ -105,6 +105,47 @@ export default function Experience() {
                     ]}
                 />
             </ExperienceEntry>
+
+            <div className="border-b border-gray-200 mb-8"></div>
+
+            <ExperienceEntry
+                company="다화테크놀로지코리아"
+                link="https://www.dahuasecurity.com/Korea"
+                role="기술지원팀 · 대리"
+                period="2022.06 ~ 2024.02 (1년 9개월)"
+            >
+                <Project
+                    title="관제영상 플랫폼 앱 QA"
+                    tags="#AppQA #CCTV #CMS #VMS #CrossPlatform"
+                    items={[
+                        '관제영상 모바일 앱(DMSS 등) 기능 검증 및 사용성 테스트 수행',
+                        'CMS/VMS 영상관리 솔루션 통합 QA 및 호환성 검증',
+                        '실시간 영상 스트리밍, 녹화 재생, PTZ 제어 등 핵심 기능 테스트',
+                        '다양한 디바이스 환경에서의 크로스 플랫폼 호환성 테스트',
+                    ]}
+                />
+                <br />
+                <Project
+                    title="기술지원 및 품질검증"
+                    tags="#TechSupport #Troubleshooting #Firmware"
+                    items={[
+                        '하드웨어 및 펌웨어 업데이트 테스트 및 안정성 검증',
+                        '제품·시스템 이슈 트러블슈팅 및 원인 분석 대응',
+                        '클라이언트 요구사항 분석 및 맞춤 기술 솔루션 제안',
+                        '기술 자료 번역(영↔한) 및 제품 매뉴얼 제작',
+                    ]}
+                />
+                <br />
+                <Project
+                    title="주요 활동"
+                    tags="#Presentation #Seminar #Exhibition"
+                    items={[
+                        '2022년 총판 로드쇼 아날로그 솔루션 부문 기술 발표 담당',
+                        '2022년 기술 세미나 저조도(Low-light) 기술 부문 발표 담당',
+                        '2023년 총판 전시회 AI 기술 부문 발표 담당',
+                    ]}
+                />
+            </ExperienceEntry>
         </>
     );
 }
