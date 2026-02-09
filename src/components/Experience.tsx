@@ -32,9 +32,9 @@ export default function Experience() {
                     ]}
                 />
                 <ProjectImages images={[
-                    { src: '/portfolio/assets/images/moonple_main.png', alt: 'MOONPLE 메인 캘린더 스크린샷' },
-                    { src: '/portfolio/assets/images/moonple_status.png', alt: 'MOONPLE 일정 점검 스크린샷' },
-                    { src: '/portfolio/assets/images/moonple_search.png', alt: 'MOONPLE 일정 검색 스크린샷' },
+                    { src: '/portfolio/assets/images/moonple_main.webp', alt: 'MOONPLE 메인 캘린더 스크린샷' },
+                    { src: '/portfolio/assets/images/moonple_widget.webp', alt: 'MOONPLE 위젯 스크린샷' },
+                    { src: '/portfolio/assets/images/moonple_status.webp', alt: 'MOONPLE 일정 점검 스크린샷' },
                 ]} />
             </ExperienceEntry>
 
@@ -59,9 +59,9 @@ export default function Experience() {
                     ]}
                 />
                 <ProjectImages images={[
-                    { src: '/portfolio/assets/images/como_1.png', alt: "C'OMO 스크린샷 1" },
-                    { src: '/portfolio/assets/images/como_2.png', alt: "C'OMO 스크린샷 2" },
-                    { src: '/portfolio/assets/images/como_3.png', alt: "C'OMO 스크린샷 3" },
+                    { src: '/portfolio/assets/images/como_1.webp', alt: "C'OMO 스크린샷 1" },
+                    { src: '/portfolio/assets/images/como_2.webp', alt: "C'OMO 스크린샷 2" },
+                    { src: '/portfolio/assets/images/como_3.webp', alt: "C'OMO 스크린샷 3" },
                 ]} />
             </ExperienceEntry>
 

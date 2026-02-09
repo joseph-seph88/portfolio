@@ -42,7 +42,7 @@ function ProfileImage() {
   return (
     <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl border-2 border-gray-300 mt-4 overflow-hidden">
       <Image
-        src="/portfolio/assets/images/totoro.png"
+        src="/portfolio/assets/images/totoro.webp"
         alt="Profile Image"
         width={230}
         height={200}
