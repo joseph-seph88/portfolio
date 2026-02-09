@@ -15,7 +15,7 @@ export default function Experience() {
                 company="MOONPLE (문플)"
                 link="https://joseph-seph88.github.io/moonple/"
                 role="Flutter 앱 개발자"
-                period="2025.12 ~ 현재"
+                period="2025.12 ~ 2026.02"
             >
                 <Project
                     title="MOONPLE - 캘린더 일정관리 앱"
