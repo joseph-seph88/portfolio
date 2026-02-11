@@ -13,22 +13,20 @@ export default function Experience() {
 
             <ExperienceEntry
                 company="MOONPLE (문플)"
-                link="https://joseph-seph88.github.io/moonple/"
+                link="https://play.google.com/store/apps/details?id=com.joseph88.moonple&hl=ko"
                 role="Flutter 앱 개발자"
-                period="2025.12 ~ 2026.02"
+                period="2026.02 출시"
             >
                 <Project
                     title="MOONPLE - 캘린더 일정관리 앱"
-                    status="외부 테스트 진행중"
+                    status="Google Play 출시"
                     tags="#Flutter #Bloc #Cubit #Isar #Hive #PushNotification"
                     items={[
-                        '간편한 일정 추가, 수정, 삭제 및 검색 기능',
-                        '한 달/2주 단위의 캘린더 홈 위젯 지원 기능',
-                        '로컬 알림을 통한 일정 리마인더 기능',
-                        '일정 상태 관리 (완료, 진행중, 예정, 미완료) 기능',
-                        '주간/월간 일정 상태 현황 및 통계 기능',
-                        '이번 주/일 일정 이미지 공유 기능',
-                        '다국어 (한국어/English) 지원 기능',
+                        '홈 위젯으로 빠른 일정 확인',
+                        '일정 상태 관리 및 점검',
+                        '주간/월간 현황판',
+                        '일정 이미지 공유',
+                        '다국어 (한국어/English) 지원',
                     ]}
                 />
                 <ProjectImages images={[
