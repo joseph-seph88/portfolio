@@ -7,7 +7,7 @@ export default function Header() {
       <div className="text-right">
         <div className="mb-5">
           <SocialLink href="https://github.com/joseph-seph88" src="/portfolio/assets/images/git_logo.webp" alt="GitHub" />
-          {/* <SocialLink href="https://www.joseph88dev.com/ko" src="/portfolio/assets/images/vercel.webp" alt="Notion" imgClassName="py-3 px-3" /> */}
+          <SocialLink href="https://www.joseph88dev.com/ko" src="/portfolio/assets/images/halfdev.webp" alt="Portfolio" imgClassName="py-3 px-3" />
         </div>
         <p className="text-base mt-10">Email: <strong>pathetic.sim@gmail.com</strong></p>
       </div>
