@@ -1,7 +1,12 @@
+import PdfDownloadButton from '@/components/pdf/PdfDownloadButton';
+
 export default function Footer() {
     return (
         <footer className="mt-20 py-8 border-t border-gray-200">
             <div className="text-center">
+                <div className="mb-6">
+                    <PdfDownloadButton />
+                </div>
                 <FooterLogo />
             </div>
         </footer>

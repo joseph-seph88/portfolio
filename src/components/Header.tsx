@@ -1,26 +1,29 @@
 import Image from "next/image";
+import { resumeData } from '@/data/resume-data';
 
 export default function Header() {
+  const { profile } = resumeData;
+
   return (
     <div className="flex justify-between items-start mb-8 pb-4">
-      <HeaderTitle />
+      <HeaderTitle name={profile.name} subtitle={profile.subtitle} />
       <div className="text-right">
         <div className="mb-5">
-          <SocialLink href="https://github.com/joseph-seph88" src="/portfolio/assets/images/git_logo.webp" alt="GitHub" />
-          <SocialLink href="https://www.joseph88dev.com/ko" src="/portfolio/assets/images/halfdev.webp" alt="Portfolio" imgClassName="py-3 px-3" />
+          <SocialLink href={profile.github} src="/portfolio/assets/images/git_logo.webp" alt="GitHub" />
+          <SocialLink href={profile.portfolio} src="/portfolio/assets/images/halfdev.webp" alt="Portfolio" imgClassName="py-3 px-3" />
         </div>
-        <p className="text-base mt-10">Email: <strong>pathetic.sim@gmail.com</strong></p>
+        <p className="text-base mt-10">Email: <strong>{profile.email}</strong></p>
       </div>
     </div>
   );
 }
 
 
-function HeaderTitle() {
+function HeaderTitle({ name, subtitle }: { name: string; subtitle: string }) {
   return (
     <div className="header-left">
-      <h1 className="ml-10 mt-7 text-4xl text-gray-700 font-medium tracking-wide">임종섭 (JOSEPH)</h1>
-      <h2 className="ml-11 mt-3 text-2xl text-gray-400 font-medium tracking-tight">앱/웹 풀스택 개발자</h2>
+      <h1 className="ml-10 mt-7 text-4xl text-gray-700 font-medium tracking-wide">{name}</h1>
+      <h2 className="ml-11 mt-3 text-2xl text-gray-400 font-medium tracking-tight">{subtitle}</h2>
     </div>
   );
 }

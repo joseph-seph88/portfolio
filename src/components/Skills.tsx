@@ -1,3 +1,5 @@
+import { resumeData } from '@/data/resume-data';
+
 export default function Skills() {
     return (
         <div>
@@ -6,26 +8,9 @@ export default function Skills() {
             </div>
             <div className="border-b-2 border-gray-200 mb-8"></div>
 
-            <SkillCategory title="Frontend" items={[
-                'Dart/Flutter',
-                'NextJS/React',
-                'Bloc, Cubit, GetX, Riverpod',
-                'Figma, Rive',
-            ]} />
-
-            <SkillCategory title="Backend" items={[
-                'NestJS/Typescript',
-                'Python',
-                'PostgreSQL, MySQL, Redis',
-                'REST API, GraphQL, Swagger, Playground',
-            ]} />
-
-            <SkillCategory title="DevOps" items={[
-                'Git, Github, Gitlab, Github Actions',
-                'Sentry',
-                'AWS, Firebase, Vercel',
-                'Nginx',
-            ]} />
+            {resumeData.skills.map((cat) => (
+                <SkillCategory key={cat.title} title={cat.title} items={cat.items} />
+            ))}
         </div>
     );
 }

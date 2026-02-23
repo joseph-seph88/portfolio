@@ -1,3 +1,5 @@
+import { resumeData } from '@/data/resume-data';
+
 export default function OpenSource() {
     return (
         <>
@@ -6,15 +8,9 @@ export default function OpenSource() {
             </div>
             <div className="border-b-2 border-gray-200 mb-8"></div>
 
-            <PackageEntry
-                name="catching_josh"
-                href="https://pub.dev/packages/catching_josh"
-                items={[
-                    'try-catch 및 console.log의 반복적인 코드 패턴 간소화',
-                    '에러 처리 로직을 직관적이고 읽기 쉽게 개선',
-                    '개발자의 생산성과 코드 품질을 향상',
-                ]}
-            />
+            {resumeData.openSource.map((os) => (
+                <PackageEntry key={os.name} name={os.name} href={os.href} items={os.items} />
+            ))}
         </>
     );
 }

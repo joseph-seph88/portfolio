@@ -1,3 +1,5 @@
+import { resumeData } from '@/data/resume-data';
+
 export default function CertificatesEducation() {
     return (
         <div>
@@ -6,17 +8,8 @@ export default function CertificatesEducation() {
             </div>
             <div className="border-b-2 border-gray-200 mb-8"></div>
 
-            <InfoSection title="Certificates" className="mt-10" items={[
-                '정보처리기사',
-                '네트워크 관리사 2급',
-                'C/Python Embedded 개발 부트캠프 수료',
-                'Flutter App 개발 부트캠프 수료',
-            ]} />
-
-            <InfoSection title="Education" className="mt-4" items={[
-                '정보통신공학 학사',
-                '실용음악학 학사',
-            ]} />
+            <InfoSection title="Certificates" className="mt-10" items={resumeData.certificates} />
+            <InfoSection title="Education" className="mt-4" items={resumeData.education} />
         </div>
     );
 }

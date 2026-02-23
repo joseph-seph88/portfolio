@@ -1,3 +1,5 @@
+import { resumeData } from '@/data/resume-data';
+
 export default function Project() {
     return (
         <>
@@ -6,48 +8,26 @@ export default function Project() {
             </div>
             <div className="border-b-2 border-gray-200 mb-8"></div>
 
-            <ProjectEntry
-                org="한국 소프트웨어 교육원 (KOSTA)"
-                role="IoT시스템과 보안기술을 위한 C개발자 양성 클래스 수료"
-                period="2024.3 - 2024.7"
-            >
-                <ProjectDetail
-                    title="임베디드 자율 주행 프로젝트 개발"
-                    tags="#C #Python #FastAPI #OpenCV #WebSocket #Firmware"
-                    items={[
-                        '미니카 자율주행 시스템 Firmware 개발',
-                        'OpenCV를 이용한 이미지 처리 및 MPEG 압축 구현',
-                        'WebSocket 기반 실시간 양방향 통신',
-                        'Uvicorn과 FastAPI를 이용한 서버 구현',
-                    ]}
-                />
-            </ProjectEntry>
-
-            <ProjectEntry
-                org="엘리스 트랙"
-                role="Flutter 앱 개발 부트캠프 수료"
-                period="2024.10 - 2025.3"
-                className="mt-20"
-            >
-                <ProjectDetail
-                    title="패션 SNS 플랫폼 프로젝트 개발"
-                    tags="#Flutter #Riverpod #SqfLite #Firebase #NodeJS"
-                    items={[
-                        'UI/UX 설계 문서 작성 주도 및 팀장 역할 수행',
-                        'Firebase Auth, Token, SharedPreference 등 로그인 및 회원가입 기능 구현',
-                        'SqfLite, Firebase, NodeJS 기반 온오프라인 채팅 기능 구현',
-                    ]}
-                />
-                <br />
-                <ProjectDetail
-                    title="중고 거래 플랫폼 프로젝트 개발"
-                    tags="#Flutter #Riverpod #CleanArchitecture #Firebase"
-                    items={[
-                        'UI/UX 디자인 및 브랜딩(로고, 서비스명) 설계',
-                        'Firebase와 Naver/Google Map API 기반 지도 기능 구현',
-                    ]}
-                />
-            </ProjectEntry>
+            {resumeData.educationProjects.map((ep, idx) => (
+                <ProjectEntry
+                    key={ep.org}
+                    org={ep.org}
+                    role={ep.role}
+                    period={ep.period}
+                    className={idx > 0 ? 'mt-20' : undefined}
+                >
+                    {ep.projects.map((proj, pIdx) => (
+                        <div key={pIdx}>
+                            {pIdx > 0 && <br />}
+                            <ProjectDetail
+                                title={proj.title}
+                                tags={proj.tags}
+                                items={proj.items}
+                            />
+                        </div>
+                    ))}
+                </ProjectEntry>
+            ))}
         </>
     );
 }
