@@ -110,7 +110,7 @@ export const resumeData: ResumeData = {
     {
       company: '다화테크놀로지코리아',
       link: 'https://www.dahuasecurity.com/',
-      role: '기술지원 · QA',
+      role: 'QA 엔지니어',
       period: '2022.06 ~ 2024.02 (1년 9개월)',
       projects: [
         {
