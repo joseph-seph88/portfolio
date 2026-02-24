@@ -67,6 +67,16 @@ export const resumeData: ResumeData = {
       period: '2025.03 ~ 08',
       projects: [
         {
+          title: 'BLE 카드 기반 무선 출입 인증 시스템 개발 - BLE 비콘 출입/출석 인증 앱 연동',
+          tags: '#BLE #Beacon #RestAPI #RSSI #IoT',
+          items: [
+            'BLE 게이트웨이 설정 및 비콘 카드 연동을 통한 무선 인증 시스템 구축',
+            'HTTP 기반 게이트웨이-서버 간 BLE 스캔 데이터 통신 구현',
+            'RSSI 기반 근접 거리 판단 로직 설계 및 인증 기준 수립',
+            'BLE 비콘 기반 출석 체크 시스템 설계 및 서버 개발자와 협업',
+          ],
+        },
+        {
           title: 'PLAYV, PLAYV HUB 개발 - 스포츠센터 등록,예약 및 관리 플랫폼',
           tags: '#Flutter #NestJS #RestAPI #PostgreSQL #Firebase #Sentry',
           items: [
