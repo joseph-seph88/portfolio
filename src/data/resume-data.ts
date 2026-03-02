@@ -11,6 +11,28 @@ export const resumeData: ResumeData = {
 
   experiences: [
     {
+      company: 'NEARBLEE (니어블리)',
+      icon: '/portfolio/assets/images/nearblee.png',
+      link: 'https://nearblee.vercel.app/',
+      role: '개발자',
+      period: '2026.03 출시 예정',
+      projects: [
+        {
+          title: 'NEARBLEE - 블루투스 기기 분실 방지 앱',
+          status: '외부 테스트 진행 중',
+          tags: '#Flutter #Kotlin #BLE #Riverpod #NaverMap',
+          items: [
+            '블루투스 기기 스캔 및 거리별 자동 필터링',
+            '연결/해제 위치 자동 기록 및 지도 시각화',
+            '기기 연결·해제 시 즉시 푸시 알림',
+            '큼직하고 직관적인 UI로 누구나 쉽게',
+            '모든 데이터는 안전하게 내 기기에만 저장',
+          ],
+        },
+      ],
+      images: [],
+    },
+    {
       company: 'MOONPLE (문플)',
       link: 'https://play.google.com/store/apps/details?id=com.joseph88.moonple&hl=ko',
       role: '개발자',
@@ -37,20 +59,20 @@ export const resumeData: ResumeData = {
     },
     {
       company: 'Findev (핀데브)',
-      link: 'https://web-como-bay.vercel.app',
+      link: 'https://play.google.com/store/apps/details?id=com.findev.como&hl=ko',
       role: 'Flutter 앱 개발자',
       period: '2025.11 ~ 현재',
       projects: [
         {
           title: "C'OMO 개발 - 동호회 커뮤니티 플랫폼",
-          status: '외부 테스트 진행중, 3월 정식 배포',
+          status: 'Google Play 출시',
           tags: '#Flutter #GetX #RestAPI #MySQL',
           items: [
             '동호회 생성 및 가입, 멤버 관리, 권한 설정 등 핵심 기능 개발',
             '모임 일정 관리 및 참석 여부 체크 기능 구현',
             '게시판, 공지사항, 댓글 등 커뮤니티 기능 개발',
             '기존 코드베이스 아키텍처 리팩토링 및 UI/UX 개선',
-            '내외부 테스트 진행 (앱스토어/플레이스토어)',
+            '내외부 테스트 및 배포 진행 (앱스토어/플레이스토어)',
           ],
         },
       ],
@@ -170,7 +192,7 @@ export const resumeData: ResumeData = {
       items: [
         'Git, Github, Gitlab, Github Actions',
         'Sentry',
-        'AWS, Firebase, Vercel',
+        'AWS, Firebase, Supabase, Vercel',
         'Nginx',
       ],
     },

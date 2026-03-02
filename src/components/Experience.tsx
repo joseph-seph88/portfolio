@@ -17,6 +17,7 @@ export default function Experience() {
                     {idx > 0 && <div className="border-b border-gray-200 mb-8"></div>}
                     <ExperienceEntry
                         company={exp.company}
+                        icon={exp.icon}
                         link={exp.link}
                         role={exp.role}
                         period={exp.period}
@@ -68,8 +69,9 @@ function MotionLink({ href, label }: { href: string; label: string }) {
     );
 }
 
-function ExperienceEntry({ company, link, role, period, children }: {
+function ExperienceEntry({ company, icon, link, role, period, children }: {
     company: string;
+    icon?: string;
     link: string;
     role: string;
     period: string;
@@ -78,6 +80,11 @@ function ExperienceEntry({ company, link, role, period, children }: {
     return (
         <div className="flex gap-12 mb-8 items-center">
             <div className="flex-none w-60">
+                {icon && (
+                    <div className="ml-2 mb-2">
+                        <Image src={icon} alt={`${company} icon`} width={48} height={48} className="rounded-lg" />
+                    </div>
+                )}
                 <p className="font-bold text-xl text-gray-700 ml-2">{company}</p>
                 <MotionLink href={link} label={link} />
                 <p className="font-bold text-sm text-gray-700 ml-2">{role}</p>

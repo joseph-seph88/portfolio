@@ -15,6 +15,7 @@ export interface ProjectDetail {
 
 export interface ExperienceEntry {
   company: string;
+  icon?: string;
   link: string;
   role: string;
   period: string;
