@@ -10,6 +10,28 @@ export const resumeData: ResumeData = {
   },
 
   experiences: [
+        {
+      company: 'TEENOW (티나우)',
+      icon: '/portfolio/assets/images/teenow.png',
+      link: '',
+      role: '앱/서버 개발자',
+      period: '2026.04 출시 예정',
+      projects: [
+        {
+          title: 'TEENOW - AI 기반 골프 예약 플랫폼',
+          status: '외부 테스트 진행 중',
+          tags: '#Flutter #WebSocket #FCM #OAuth #AWS #Python #FastAPI',
+          items: [
+            'Flutter 앱 개발 및 팀 리드',
+            'AWS 클라우드 인프라 설계 (EC2, ALB, RDS)',
+            'WebSocket 실시간 채팅 & FCM 푸시 알림',
+            'OAuth 2.0 카카오 로그인 연동',
+            'AI 기반 골프장 추천 및 예약 시스템',
+          ],
+        },
+      ],
+      images: [],
+    },
     {
       company: 'NEARBLEE (니어블리)',
       icon: '/portfolio/assets/images/nearblee.png',
