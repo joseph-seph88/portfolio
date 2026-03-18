@@ -10,38 +10,16 @@ export const resumeData: ResumeData = {
   },
 
   experiences: [
-        {
-      company: 'TEENOW (티나우)',
-      icon: '/portfolio/assets/images/teenow.png',
-      link: '',
-      role: '앱/서버 개발자',
-      period: '2026.04 출시 예정',
-      projects: [
-        {
-          title: 'TEENOW - AI 기반 골프 예약 플랫폼',
-          status: '외부 테스트 진행 중',
-          tags: '#Flutter #WebSocket #FCM #OAuth #AWS #Python #FastAPI',
-          items: [
-            'Flutter 앱 개발 및 팀 리드',
-            'AWS 클라우드 인프라 설계 (EC2, ALB, RDS)',
-            'WebSocket 실시간 채팅 & FCM 푸시 알림',
-            'OAuth 2.0 카카오 로그인 연동',
-            'AI 기반 골프장 추천 및 예약 시스템',
-          ],
-        },
-      ],
-      images: [],
-    },
     {
       company: 'NEARBLEE (니어블리)',
       icon: '/portfolio/assets/images/nearblee.png',
-      link: 'https://nearblee.vercel.app/',
+      link: 'https://nearblee.vercel.app',
       role: '개발자',
-      period: '2026.03 출시 예정',
+      period: '2026.03 출시',
       projects: [
         {
           title: 'NEARBLEE - 블루투스 기기 분실 방지 앱',
-          status: '외부 테스트 진행 중',
+          status: 'Google Play 출시',
           tags: '#Flutter #Kotlin #BLE #Riverpod #NaverMap',
           items: [
             '블루투스 기기 스캔 및 거리별 자동 필터링',
@@ -57,12 +35,13 @@ export const resumeData: ResumeData = {
     {
       company: 'MOONPLE (문플)',
       link: 'https://play.google.com/store/apps/details?id=com.joseph88.moonple&hl=ko',
+      iosLink: 'https://apps.apple.com/kr/app/%EB%AC%B8%ED%94%8C-%EC%BA%98%EB%A6%B0%EB%8D%94-moonple-%EC%9D%BC%EC%A0%95-%EC%BA%98%EB%A6%B0%EB%8D%94/id6760285378',
       role: '개발자',
       period: '2026.02 출시',
       projects: [
         {
           title: 'MOONPLE - 캘린더 일정관리 앱',
-          status: 'Google Play 출시',
+          status: 'Google Play / App Store 출시',
           tags: '#Flutter #Bloc #Cubit #Isar #Hive #PushNotification',
           items: [
             '홈 위젯으로 빠른 일정 확인',
@@ -80,10 +59,32 @@ export const resumeData: ResumeData = {
       ],
     },
     {
+      company: 'TEENOW (티나우)',
+      icon: '/portfolio/assets/images/teenow.png',
+      link: '',
+      role: '앱/서버 개발자',
+      period: '',
+      projects: [
+        {
+          title: 'TEENOW - AI 기반 골프 예약 플랫폼',
+          status: '외부 테스트 진행 중',
+          tags: '#Flutter #WebSocket #FCM #OAuth #AWS #Python #FastAPI',
+          items: [
+            'Flutter 앱 개발 및 팀 리드',
+            'AWS 클라우드 인프라 설계 (EC2, ALB, RDS)',
+            'WebSocket 실시간 채팅 & FCM 푸시 알림',
+            'OAuth 2.0 카카오 로그인 연동',
+            'AI 기반 골프장 추천 및 예약 시스템',
+          ],
+        },
+      ],
+      images: [],
+    },
+    {
       company: 'Findev (핀데브)',
       link: 'https://play.google.com/store/apps/details?id=com.findev.como&hl=ko',
       role: 'Flutter 앱 개발자',
-      period: '2025.11 ~ 현재',
+      period: '2025.11 ~ 2026.04',
       projects: [
         {
           title: "C'OMO 개발 - 동호회 커뮤니티 플랫폼",

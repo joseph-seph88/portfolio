@@ -17,6 +17,7 @@ export interface ExperienceEntry {
   company: string;
   icon?: string;
   link: string;
+  iosLink?: string;
   role: string;
   period: string;
   projects: ProjectDetail[];
