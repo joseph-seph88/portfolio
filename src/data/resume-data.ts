@@ -279,6 +279,17 @@ export const resumeData: ResumeData = {
 
   openSource: [
     {
+      name: 'dart_balancer',
+      href: 'https://pub.dev/packages/dart_balancer',
+      items: [
+        'React의 텍스트 밸런싱 라이브러리를 Flutter에 최초 구현',
+        'Ratio Control - 밸런스 강도 조절 (0.0 ~ 1.0)',
+        'RichText Support - TextSpan 혼합 스타일 지원',
+        'Korean/CJK keepAll - 한국어 단어 중간 끊김 방지',
+        'Multiple Algorithms - Greedy(빠름) / Optimal(정확) 선택',
+      ],
+    },
+    {
       name: 'catching_josh',
       href: 'https://pub.dev/packages/catching_josh',
       items: [
