@@ -282,6 +282,7 @@ export const resumeData: ResumeData = {
       name: 'dart_balancer',
       href: 'https://pub.dev/packages/dart_balancer',
       items: [
+        'dart_balancer - Flutter 텍스트 밸런싱 라이브러리',
         'Ratio Control - 밸런스 강도 조절 (0.0 ~ 1.0)',
         'RichText Support - TextSpan 혼합 스타일 지원',
         'Korean/CJK keepAll - 한국어 단어 중간 끊김 방지',
