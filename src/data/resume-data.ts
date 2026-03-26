@@ -13,7 +13,7 @@ export const resumeData: ResumeData = {
     {
       company: 'NEARBLEE (니어블리)',
       icon: '/portfolio/assets/images/nearblee.png',
-      link: 'https://nearblee.vercel.app',
+      link: 'https://play.google.com/store/apps/details?id=com.joseph88.nearblee&hl=ko',
       role: '개발자',
       period: '2026.03 출시',
       projects: [
