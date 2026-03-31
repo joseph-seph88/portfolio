@@ -10,7 +10,7 @@ import OpenSource from "@/components/OpenSource";
 
 export default function Home() {
   return (
-    <div className="max-w-6xl mx-auto py-15">
+    <div className="max-w-6xl mx-auto px-4 md:px-8 py-8 md:py-15">
       <Header />
       <AboutMe />
       <Experience />

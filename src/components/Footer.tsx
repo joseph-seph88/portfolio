@@ -2,7 +2,7 @@ import PdfDownloadButton from '@/components/pdf/PdfDownloadButton';
 
 export default function Footer() {
     return (
-        <footer className="mt-20 py-8 border-t border-gray-200">
+        <footer className="mt-12 md:mt-20 py-6 md:py-8 border-t border-gray-200">
             <div className="text-center">
                 <div className="mb-6">
                     <PdfDownloadButton />

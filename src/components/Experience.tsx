@@ -7,8 +7,8 @@ import { resumeData } from '@/data/resume-data';
 export default function Experience() {
     return (
         <>
-            <div className="text-left mb-4 mt-15">
-                <h2 className="font-bold text-3xl text-gray-700">Experience</h2>
+            <div className="text-left mb-4 mt-10 md:mt-15">
+                <h2 className="font-bold text-2xl md:text-3xl text-gray-700">Experience</h2>
             </div>
             <div className="border-b-2 border-gray-200 mb-8"></div>
 
@@ -78,14 +78,14 @@ function ExperienceEntry({ company, icon, link, role, period, children }: {
     children: React.ReactNode;
 }) {
     return (
-        <div className="flex gap-12 mb-8 items-center">
-            <div className="flex-none w-60">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-12 mb-8 md:items-center">
+            <div className="flex-none w-full md:w-60">
                 {icon && (
                     <div className="ml-2 mb-2">
                         <Image src={icon} alt={`${company} icon`} width={48} height={48} className="rounded-lg" />
                     </div>
                 )}
-                <p className="font-bold text-xl text-gray-700 ml-2">{company}</p>
+                <p className="font-bold text-lg md:text-xl text-gray-700 ml-2">{company}</p>
                 <MotionLink href={link} label={link} />
                 <p className="font-bold text-sm text-gray-700 ml-2">{role}</p>
                 <p className="font-medium text-sm text-gray-600 ml-2">{period}</p>
@@ -121,9 +121,9 @@ function Project({ title, status, tags, items }: {
 
 function ProjectImages({ images }: { images: { src: string; alt: string }[] }) {
     return (
-        <div className="mt-4 flex gap-4">
+        <div className="mt-4 flex flex-wrap gap-2 md:gap-4">
             {images.map((img) => (
-                <Image key={img.src} src={img.src} alt={img.alt} width={200} height={400} className="rounded-lg shadow-md" />
+                <Image key={img.src} src={img.src} alt={img.alt} width={200} height={400} className="rounded-lg shadow-md w-24 h-auto md:w-[200px]" />
             ))}
         </div>
     );

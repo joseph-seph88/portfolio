@@ -3,8 +3,8 @@ import { resumeData } from '@/data/resume-data';
 export default function Project() {
     return (
         <>
-            <div className="text-left mb-4 mt-15">
-                <h2 className="font-bold text-3xl text-gray-700">Project</h2>
+            <div className="text-left mb-4 mt-10 md:mt-15">
+                <h2 className="font-bold text-2xl md:text-3xl text-gray-700">Project</h2>
             </div>
             <div className="border-b-2 border-gray-200 mb-8"></div>
 
@@ -14,7 +14,7 @@ export default function Project() {
                     org={ep.org}
                     role={ep.role}
                     period={ep.period}
-                    className={idx > 0 ? 'mt-20' : undefined}
+                    className={idx > 0 ? 'mt-10 md:mt-20' : undefined}
                 >
                     {ep.projects.map((proj, pIdx) => (
                         <div key={pIdx}>
@@ -41,13 +41,13 @@ function ProjectEntry({ org, role, period, className, children }: {
     children: React.ReactNode;
 }) {
     return (
-        <div className="flex gap-12 mb-8">
-            <div className={`flex-none w-60 ${className ?? ''}`}>
-                <p className="font-bold text-xl text-gray-700 mt-2 ml-2">{org}</p>
+        <div className="flex flex-col md:flex-row gap-2 md:gap-12 mb-6 md:mb-8">
+            <div className={`flex-none w-full md:w-60 ${className ?? ''}`}>
+                <p className="font-bold text-lg md:text-xl text-gray-700 mt-2 ml-2">{org}</p>
                 <p className="font-bold text-sm text-gray-700 ml-2">{role}</p>
                 <p className="font-medium text-sm text-gray-600 ml-2">{period}</p>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 ml-2 md:ml-0">
                 {children}
             </div>
         </div>

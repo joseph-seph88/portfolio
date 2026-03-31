@@ -5,11 +5,11 @@ export default function AboutMe() {
   return (
     <>
       <div className="text-left mb-2">
-        <h2 className="font-bold text-3xl text-gray-700 ml-70">About Me</h2>
+        <h2 className="font-bold text-2xl md:text-3xl text-gray-700 md:ml-70">About Me</h2>
       </div>
-      <div className="border-b-2 border-gray-200 mb-8 ml-70"></div>
+      <div className="border-b-2 border-gray-200 mb-8 md:ml-70"></div>
 
-      <div className="flex items-start gap-8 mb-8">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 mb-8">
         <ProfileImage />
 
         <div className="flex-1">
@@ -46,7 +46,7 @@ function ProfileImage() {
         alt="Profile Image"
         width={230}
         height={200}
-        className="flex-shrink-0 object-cover"
+        className="flex-shrink-0 object-cover w-40 h-auto md:w-[230px]"
       />
     </div>
   );
@@ -55,8 +55,8 @@ function ProfileImage() {
 function Philosophy({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <>
-      <p className="text-gray-400 italic"><strong>{title}</strong></p>
-      <p>{children}</p>
+      <p className="text-gray-400 italic text-sm md:text-base"><strong>{title}</strong></p>
+      <p className="text-sm md:text-base">{children}</p>
     </>
   );
 }
@@ -64,11 +64,11 @@ function Philosophy({ title, children }: { title: string; children: React.ReactN
 function Introduction() {
   return (
     <>
-      <p><strong>Flutter</strong>, <strong>NextJS</strong>, <strong>NestJS</strong> 기반의 <strong>앱/웹 풀스택 개발자</strong>로,
+      <p className="text-sm md:text-base"><strong>Flutter</strong>, <strong>NextJS</strong>, <strong>NestJS</strong> 기반의 <strong>앱/웹 풀스택 개발자</strong>로,
         스포츠 예약 플랫폼, 동호회 커뮤니티 앱, 캘린더 일정관리 앱, 체육관 플랫폼 앱, 부동산 플랫폼 앱 등 다양한 서비스의 프론트엔드 및 백엔드 개발에 참여했습니다.
       </p>
 
-      <p><strong>다양한 기술 스택의 구조</strong>와 <strong>패턴에 대한 이해</strong>를 바탕으로 유연하게 문제를 해결하며,
+      <p className="text-sm md:text-base"><strong>다양한 기술 스택의 구조</strong>와 <strong>패턴에 대한 이해</strong>를 바탕으로 유연하게 문제를 해결하며,
         개발자, 기획자, 고객 등 다양한 사람들과의  <strong>소통</strong>을 통해  <strong>요구사항을 정확히 이해하고 반영하는 개발자</strong>입니다.
       </p>
     </>
