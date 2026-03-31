@@ -70,11 +70,13 @@ export const resumeData: ResumeData = {
           status: '외부 테스트 진행 중',
           tags: '#Flutter #WebSocket #FCM #OAuth #AWS #Python #FastAPI',
           items: [
-            'Flutter 앱 개발 및 팀 리드',
+            '앱 개발 및 팀 리드',
             'AWS 클라우드 인프라 설계 (EC2, ALB, RDS)',
+            '크롤링·캐싱 관련, DB(Redis, PG) 설계',
             'WebSocket 실시간 채팅 & FCM 푸시 알림',
             'OAuth 2.0 카카오 로그인 연동',
             'AI 기반 골프장 추천 및 예약 시스템',
+            'WEB ERP 시스템 개발',
           ],
         },
       ],
@@ -83,19 +85,20 @@ export const resumeData: ResumeData = {
     {
       company: 'Findev (핀데브)',
       link: 'https://play.google.com/store/apps/details?id=com.findev.como&hl=ko',
+      iosLink: 'https://apps.apple.com/kr/app/%EC%BD%94%EB%AA%A8-como/id6544798850',
       role: 'Flutter 앱 개발자',
       period: '2025.11 ~ 2026.04',
       projects: [
         {
           title: "C'OMO 개발 - 동호회 커뮤니티 플랫폼",
-          status: 'Google Play 출시',
-          tags: '#Flutter #GetX #RestAPI #MySQL',
+          status: 'Google Play / App Store 출시',
+          tags: '#Flutter #GetX #RestAPI #PostgreSQL #Firebase',
           items: [
-            '동호회 생성 및 가입, 멤버 관리, 권한 설정 등 핵심 기능 개발',
-            '모임 일정 관리 및 참석 여부 체크 기능 구현',
-            '게시판, 공지사항, 댓글 등 커뮤니티 기능 개발',
-            '기존 코드베이스 아키텍처 리팩토링 및 UI/UX 개선',
-            '내외부 테스트 및 배포 진행 (앱스토어/플레이스토어)',
+            '동호회 생성·가입, 멤버 관리, 권한 설정 등 핵심 기능 개발',
+            '모임 일정 관리 및 참석 여부 확인 기능 추가',
+            '게시판, 공지사항, 댓글, 신고, 차단 등 커뮤니티 관리 기능 개발',
+            '로그인 기능 개발 및 JWT 토큰 기반 인증 구현',
+            'UI/UX 개선과 앱 전반 안정성 향상'
           ],
         },
       ],
