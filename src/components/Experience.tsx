@@ -19,6 +19,7 @@ export default function Experience() {
                         company={exp.company}
                         icon={exp.icon}
                         link={exp.link}
+                        iosLink={exp.iosLink}
                         role={exp.role}
                         period={exp.period}
                     >
@@ -69,10 +70,11 @@ function MotionLink({ href, label }: { href: string; label: string }) {
     );
 }
 
-function ExperienceEntry({ company, icon, link, role, period, children }: {
+function ExperienceEntry({ company, icon, link, iosLink, role, period, children }: {
     company: string;
     icon?: string;
     link: string;
+    iosLink?: string;
     role: string;
     period: string;
     children: React.ReactNode;
@@ -86,7 +88,14 @@ function ExperienceEntry({ company, icon, link, role, period, children }: {
                     </div>
                 )}
                 <p className="font-bold text-lg md:text-xl text-gray-700 ml-2">{company}</p>
-                <MotionLink href={link} label={link} />
+                {iosLink ? (
+                    <div className="flex flex-col">
+                        <MotionLink href={link} label={link} />
+                        <MotionLink href={iosLink} label={iosLink} />
+                    </div>
+                ) : (
+                    <MotionLink href={link} label={link} />
+                )}
                 <p className="font-bold text-sm text-gray-700 ml-2">{role}</p>
                 <p className="font-medium text-sm text-gray-600 ml-2">{period}</p>
             </div>
