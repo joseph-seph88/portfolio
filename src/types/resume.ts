@@ -47,6 +47,12 @@ export interface OpenSourceEntry {
   items: string[];
 }
 
+export interface RetrospectiveEntry {
+  title: string;
+  period?: string;
+  content: string;
+}
+
 export interface ResumeData {
   profile: ProfileData;
   experiences: ExperienceEntry[];
@@ -55,5 +61,6 @@ export interface ResumeData {
   certificates: string[];
   education: string[];
   openSource: OpenSourceEntry[];
+  retrospectives: RetrospectiveEntry[];
   aboutMePlainText: string;
 }

@@ -3,6 +3,7 @@ import AboutMe from "@/components/AboutMe";
 import Footer from "@/components/Footer";
 import ProblemSolving from "@/components/ProblemSolving";
 import Experience from "@/components/Experience";
+import Retrospective from "@/components/Retrospective";
 import Skills from "@/components/Skills";
 import CertificatesEducation from "@/components/CertificatesEducation";
 import Project from "@/components/Project";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <AboutMe />
       <Experience />
+      <Retrospective />
       <ProblemSolving />
       <OpenSource />
       <Project />
