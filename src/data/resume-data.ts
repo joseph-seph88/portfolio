@@ -12,7 +12,7 @@ export const resumeData: ResumeData = {
   experiences: [
     {
       company: 'NEARBLEE (니어블리)',
-      icon: '/portfolio/assets/images/nearblee.png',
+      icon: '/portfolio/assets/images/nearblee.webp',
       link: 'https://play.google.com/store/apps/details?id=com.joseph88.nearblee&hl=ko',
       role: '앱 개발자',
       period: '2026.03 출시',
@@ -60,7 +60,7 @@ export const resumeData: ResumeData = {
     },
     {
       company: 'TEENOW (티나우)',
-      icon: '/portfolio/assets/images/teenow.png',
+      icon: '/portfolio/assets/images/teenow.webp',
       link: '',
       role: '앱/서버 개발자',
       period: '',
@@ -316,5 +316,12 @@ export const resumeData: ResumeData = {
     '스포츠 예약 플랫폼, 동호회 커뮤니티 앱, 캘린더 일정관리 앱, 체육관 플랫폼 앱, 부동산 플랫폼 앱 등 ' +
     '다양한 서비스의 프론트엔드 및 백엔드 개발에 참여했습니다.\n\n' +
     '다양한 기술 스택의 구조와 패턴에 대한 이해를 바탕으로 유연하게 문제를 해결하며, ' +
-    '개발자, 기획자, 고객 등 다양한 사람들과의 소통을 통해 요구사항을 정확히 이해하고 반영하는 개발자입니다.',
+    '개발자, 기획자, 고객 등 다양한 사람들과의 소통을 통해 요구사항을 정확히 이해하고 반영하는 개발자입니다.\n\n' +
+    '[코드보다 사람, 구조보다 경험]\n' +
+    '처음에는 클린 아키텍처와 코드 구조에 집중했습니다. 하지만 여러 프로젝트를 거치며 깨달은 건, ' +
+    '사용자는 코드가 얼마나 깔끔한지 모른다는 것입니다. 사용자가 느끼는 건 오직 "이 앱이 내 문제를 얼마나 쉽게 해결해주는가"입니다. ' +
+    '지금은 기능 하나를 만들더라도 사용자 흐름과 인터랙션을 먼저 설계하고, 그에 맞춰 구조를 잡습니다.\n\n' +
+    '[사용자 경험이 곧 서비스의 가치]\n' +
+    '아무리 잘 짜인 코드도 사용자가 불편하면 의미가 없습니다. 기술은 수단일 뿐, 결국 사용자가 얼마나 편하게 목표를 달성하느냐가 서비스의 본질이라고 생각합니다. ' +
+    '그래서 개발할 때 항상 "사용자가 이 화면에서 무엇을 원할까?"를 먼저 고민합니다.',
 };

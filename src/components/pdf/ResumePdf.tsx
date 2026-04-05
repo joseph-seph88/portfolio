@@ -104,11 +104,12 @@ const s = StyleSheet.create({
   aboutRow: {
     flexDirection: 'row',
     gap: 16,
-    marginBottom: 10,
+    marginBottom: 20,
+    alignItems: 'center',
   },
   profileImage: {
-    width: 90,
-    height: 80,
+    width: 100,
+    height: 120,
     borderRadius: 12,
     objectFit: 'cover',
   },
@@ -248,9 +249,9 @@ export default function ResumePdf() {
 
         {/* ══ About Me ══ */}
         <SectionTitle first>About Me</SectionTitle>
-        <View style={s.aboutRow}>
-          <Image src="/portfolio/assets/images/totoro.png" style={s.profileImage} />
+        <View style={s.aboutRow} wrap={false}>
           <Text style={s.aboutText}>{d.aboutMePlainText}</Text>
+          <Image src="/portfolio/assets/images/cat_2.png" style={s.profileImage} />
         </View>
 
         {/* ══ Experience ══ */}

@@ -1,16 +1,16 @@
-import Image from "next/image";
+import RiveCat from "./RiveCat";
 
 
 export default function AboutMe() {
   return (
     <>
       <div className="text-left mb-2">
-        <h2 className="font-bold text-2xl md:text-3xl text-gray-700 md:ml-70">About Me</h2>
+        <h2 className="font-bold text-2xl md:text-3xl text-gray-700">About Me</h2>
       </div>
-      <div className="border-b-2 border-gray-200 mb-8 md:ml-70"></div>
+      <div className="border-b-2 border-gray-200 mb-8"></div>
 
       <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 mb-8">
-        <ProfileImage />
+        <RiveCat className="md:order-last" />
 
         <div className="flex-1">
           <Introduction />
@@ -34,21 +34,6 @@ export default function AboutMe() {
         </div>
       </div>
     </>
-  );
-}
-
-
-function ProfileImage() {
-  return (
-    <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl border-2 border-gray-300 mt-4 overflow-hidden">
-      <Image
-        src="/portfolio/assets/images/totoro.webp"
-        alt="Profile Image"
-        width={230}
-        height={200}
-        className="flex-shrink-0 object-cover w-40 h-auto md:w-[230px]"
-      />
-    </div>
   );
 }
 
