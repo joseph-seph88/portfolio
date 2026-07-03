@@ -248,6 +248,7 @@ export const resumeData: ResumeData = {
       items: [
         "Dart/Flutter",
         "NextJS/React",
+        "VueJS/NuxtJS",
         "Bloc, Cubit, GetX, Riverpod",
         "Figma, Rive",
       ],
