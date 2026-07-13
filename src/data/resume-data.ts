@@ -15,20 +15,7 @@ export const resumeData: ResumeData = {
       link: "",
       role: "앱, 웹 개발자",
       period: "2026.05~",
-      projects: [
-        // {
-        //   title: "NEARBLEE - 블루투스 기기 분실 방지 앱",
-        //   status: "Google Play 출시",
-        //   tags: "#Flutter #Kotlin #BLE #Riverpod #NaverMap",
-        //   items: [
-        //     "블루투스 기기 스캔 및 거리별 자동 필터링",
-        //     "연결/해제 위치 자동 기록 및 지도 시각화",
-        //     "기기 연결·해제 시 즉시 푸시 알림",
-        //     "큼직하고 직관적인 UI로 누구나 쉽게",
-        //     "모든 데이터는 안전하게 내 기기에만 저장",
-        //   ],
-        // },
-      ],
+      projects: [],
       images: [],
     },
     {
@@ -336,6 +323,17 @@ export const resumeData: ResumeData = {
   ],
 
   openSource: [
+    {
+      name: "pure_native_splash",
+      href: "https://pub.dev/packages/pure_native_splash",
+      items: [
+        "pure_native_splash - 단색 배경의 네이티브 스플래시 화면을 생성하는 Flutter 패키지",
+        "Light/Dark Mode - 라이트/다크 모드별 배경색 개별 설정 지원",
+        "Icon Flicker 제거 - Android 12 이상에서 발생하는 런처 아이콘 깜빡임 현상 자동 해결",
+        "간편한 설정 - pubspec.yaml 설정 후 명령어 한 줄로 Android/iOS 네이티브 스플래시 자동 생성",
+        "Remove 명령 지원 - 적용된 네이티브 스플래시 설정을 명령어로 손쉽게 원복",
+      ],
+    },
     {
       name: "dart_boundaries",
       href: "https://pub.dev/packages/dart_boundaries",
